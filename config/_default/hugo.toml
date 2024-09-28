@@ -2,3 +2,9 @@ baseURL = 'https://fwcore.github.io/notes/'
 languageCode = 'en-us'
 title = 'Notes'
 theme = 'PaperMod'
+
+
+params:
+  homeInfoParams:
+    Title: Hi there wave
+    Content: Welcome ...
