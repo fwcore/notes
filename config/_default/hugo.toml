@@ -4,7 +4,7 @@ title = 'Notes'
 theme = 'PaperMod'
 
 
-params:
-  homeInfoParams:
-    Title: Hi there wave
-    Content: Welcome ...
+[params]
+  [homeInfoParams]
+    Title = "Hi there wave"
+    Content = "Welcome ..."
