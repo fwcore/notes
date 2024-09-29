@@ -3,8 +3,32 @@ languageCode = 'en-us'
 title = 'Notes'
 theme = 'PaperMod'
 
+enableEmoji = false
+mainsections = ["posts"]
+paginate = 10
+
+[outputs.home]
+home = ["HTML"]
 
 [params]
-  [homeInfoParams]
-    Title = "Hi there wave"
-    Content = "Welcome ..."
+description = "fwcore's notes"
+author = "fwcore"
+ShowReadingTime = true
+ShowPostNavLinks = true
+ShowCodeCopyButtons = true
+ShowAllPagesInArchive = true
+ShowPageNums = true
+ShowToc = true
+
+[params.homeInfoParams]
+Title = 'Hi there wave'
+Content = """
+Welcome to the notes on C++, Rust, and AI runtimes including TensorRT, ONNXRuntime, etc.
+...
+"""
+
+[[params.socialIcons]]
+name = "github"
+title = "View Source on Github"
+url = "https://github.com/fwcore/notes"
+
